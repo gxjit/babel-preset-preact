@@ -1,0 +1,15 @@
+{
+  "name": "babel-preset-preact",
+  "version": "0.1.0",
+  "description": "Babel preset for preact",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gurjit Singh",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.3.0"
+  }
+}
