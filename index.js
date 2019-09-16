@@ -1,9 +1,7 @@
-const jsxTransform = require('@babel/plugin-transform-react-jsx')
-
 module.exports = () => ({
   plugins: [
     [
-      jsxTransform,
+      require('@babel/plugin-transform-react-jsx'),
       {
         pragma: 'h',
         pragmaFrag: 'Fragment'
